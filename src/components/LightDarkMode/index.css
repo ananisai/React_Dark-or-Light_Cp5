@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+.container {
+  background-color: #000000;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 25px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button_Change_Mode {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
